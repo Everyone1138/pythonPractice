@@ -58,3 +58,9 @@ def weather_condition(temperature):
 user_input = float(input("Enter temperature:"))
 print(weather_condition(user_input))
 
+
+user_input2 = input("Enter your name: ") # this is how you direct the input from a user into what you need it to go to 
+message = "Hello %s!" % user_input2
+message2 = "Hello {}!".format(user_input2) 
+print(message)
+print(message2)
