@@ -24,6 +24,6 @@ mean = mysum / length
 print(mean)
 # print(temperatures)
 
-
+#tuples
 monday_temperature = (1, 4, 5)
 print(monday_temperature)
